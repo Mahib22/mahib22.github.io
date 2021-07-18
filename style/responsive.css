@@ -1,0 +1,20 @@
+@media screen and (max-width: 700px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .contact-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .portofolio-list {
+    grid-template-columns: 1fr;
+  }
+
+  .image-container {
+    display: none;
+  }
+}

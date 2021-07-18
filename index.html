@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="public/favicon.png" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+    <link rel="stylesheet" href="style/preloader.css" />
+    <link rel="stylesheet" href="style/custom-scroll.css" />
+    <link rel="stylesheet" href="style/magic-mouse.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Muhammad Mahib Arib 👋</title>
+  </head>
+  <body>
+    <!-- PRELOADER -->
+    <div class="preloader">
+      <div class="loading">
+        <img src="public/preloader.gif" height="100" />
+      </div>
+    </div>
+
+    <!-- INTRO -->
+    <section class="intro-section">
+      <div class="intro">
+        <h1 class="name" data-aos="fade-down">Hi, I'm Muhammad Mahib Arib</h1>
+        <p class="desc" data-aos="zoom-in">
+          I am a Product Designer & Front End Engineer focused on UI,
+          accessibility and the overlap between design and code. Currently I'm a
+          Principal Designer at Booking.com, specialising on systems and service
+          design. Feel free to check my work or get in touch.
+        </p>
+        <div class="btn-group">
+          <a href="#" class="btn magic-hover magic-hover__square"
+            >Download CV</a
+          >
+          <a
+            href="mailto:mahib.arib@gmail.com"
+            class="btn magic-hover magic-hover__square"
+            >Hire Me</a
+          >
+        </div>
+        <ul class="contact-list" data-aos="fade-right">
+          <li>
+            <a
+              class="contact-item magic-hover magic-hover__square"
+              href="https://github.com/Mahib22"
+              target="_blank"
+              rel="noopener"
+              >Github</a
+            >
+          </li>
+          <li>
+            <a
+              class="contact-item magic-hover magic-hover__square"
+              href="https://www.linkedin.com/in/mahib-arib-8738b01b1"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              class="contact-item magic-hover magic-hover__square"
+              href="https://mahib-arib.medium.com"
+              target="_blank"
+              rel="noopener"
+              >Medium</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="image-container" data-aos="flip-right">
+        <img
+          class="img"
+          src="public/my_picture.JPG"
+          alt="img"
+          width="200"
+          loading="lazy"
+        />
+      </div>
+    </section>
+
+    <!-- PORTOFOLIO -->
+    <section class="portofolio-section">
+      <div class="title" data-aos="fade-down">
+        <h1>Portofolio</h1>
+      </div>
+      <div class="portofolio-list">
+        <div class="portofolio-item" data-aos="zoom-in-up">
+          <a href="#detail" rel="modal:open">
+            <img
+              class="portofolio-picture magic-hover magic-hover__square"
+              src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I"
+              alt="img"
+              loading="lazy"
+              width="500"
+            />
+            <div class="portofolio-title magic-hover magic-hover__square">
+              <p>Judul Aplikasi</p>
+            </div>
+          </a>
+        </div>
+        <div class="portofolio-item" data-aos="zoom-in-up">
+          <a href="#detail" rel="modal:open">
+            <img
+              class="portofolio-picture magic-hover magic-hover__square"
+              src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I"
+              alt="img"
+              loading="lazy"
+              width="500"
+            />
+            <div class="portofolio-title magic-hover magic-hover__square">
+              <p>Judul Aplikasi</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODAL -->
+    <div id="detail" class="modal">
+      <h1>Judul</h1>
+      <br />
+      <p>
+        Thanks for clicking. That felt good. Thanks for clicking. That felt
+        good. Thanks for clicking. That felt good. Thanks for clicking. That
+        felt good. Thanks for clicking. That felt good.
+      </p>
+      <br />
+      <p><b>Fitur</b></p>
+      <ul class="fitur-list">
+        <li>Post</li>
+      </ul>
+      <br />
+      <span class="tag">#css</span>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p><span id="year"></span> © Muhammad Mahib Arib</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script src="script/magic_mouse.js"></script>
+    <script src="script/index.js"></script>
+  </body>
+</html>
