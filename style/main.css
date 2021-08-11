@@ -202,6 +202,7 @@ hr {
   border-radius: 5px;
   float: right;
   transition-duration: 0.4s;
+  margin-left: 5px;
 }
 
 .btn-modal:hover {
